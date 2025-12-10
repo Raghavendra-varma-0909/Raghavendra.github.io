@@ -68,7 +68,7 @@
 
     /* ensure project meta and small text are visible */
     .small-muted{color:rgba(255,255,255,0.7);font-size:13px}
-    .tag-row .tag{color:var(--muted);border-color:rgba(255,255,255,0.06)}
+    .tag-row .tag{color:var(--muted);border-color:rgba(255,255,255,0.06) }
 
     /* projects toolbar */
     .projects-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
@@ -126,7 +126,7 @@
 
         <div class="avatar-shell" style="justify-content:center">
           <div class="avatar-ring" id="avatarRing" tabindex="0" role="button" aria-label="Open avatar modal">
-            <div class="avatar-glow" id="avatarGlow" style="--gx:50%;--gy:50%"></div>
+            <div class="avatar-glow" id="avatarGlow" style="--gx:50%;--gy:50"></div>
             <img src="avatar.png" alt="Aketi Raghavendra Varma" class="avatar" id="avatarImg" draggable="false">
           </div>
         </div>
@@ -252,7 +252,9 @@
           <h3>URL Shortener</h3>
           <div class="card-meta">Flask · Redis · REST API</div>
           <p>Minimal URL shortener with redirect tracking and analytics dashboard.</p>
-          <p style="margin-top:10px"><a href="#" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+          <p style="margin-top:10px">
+            <a href="https://github.com/Raghavendra-varma-0909/Url-Shortner" target="_blank" rel="noopener noreferrer">GitHub →</a>
+          </p>
         </article>
       </div>
     </section>
